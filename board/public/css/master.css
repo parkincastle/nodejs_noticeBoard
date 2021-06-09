@@ -9,7 +9,7 @@ body {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; /* 1 */
+    text-overflow: ellipsis; /* 넘치는 text를 ...로 표시 */
   }
   
   .board-table {
@@ -20,7 +20,7 @@ body {
   }
   
   .post-body{
-    white-space: pre-line; /* 2 */
+    white-space: pre-line; /* \n이 되게 하는 코드 */
   }
   .post-info{
     font-size: 0.8em;
