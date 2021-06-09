@@ -33,7 +33,8 @@ app.use(methodOverride('_method'));
 
 // Routes
 app.use('/', require('./routes/home'));
-app.use('/posts', require('./routes/posts'));
+app.use('/posts', require('./routes/posts')); // posts route 추가
+app.use('/users', require('./routes/users')); // users route 추가
 
 // Port setting
 var port = 3000;
